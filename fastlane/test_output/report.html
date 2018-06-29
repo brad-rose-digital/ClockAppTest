@@ -112,8 +112,6 @@
         <section id="counters">
           <h2 id="test-count"><span class="number">1</span> tests</h2>
           
-            <h2 id="fail-count"><span class="number">1</span> failures</h2>
-          
         </section>
         <section id="segment-bar">
           <a id="all-segment" onclick="selectSegment(this);" class="selected">All</a><a id="failing-segment" onclick="selectSegment(this);">Failing</a><a id="passing-segment" onclick="selectSegment(this);">Passing</a>
@@ -123,7 +121,7 @@
     <section id="test-suites">
       
         
-        <section class="test-suite failing" id="BEMAnalogClockViewTests">
+        <section class="test-suite passing" id="BEMAnalogClockViewTests">
           <section class="heading" onclick="toggleTests(this);">
             <h3 class="title">BEMAnalogClockViewTests</h3>
           </section>
@@ -131,29 +129,14 @@
             <table>
             
               
-              <tr class="test failing "  onclick="toggleDetails('testExample');">
+              <tr class="test passing "  onclick="toggleDetails('testExample');">
                 <td>
+                  
+                    <h3 class="time">0.001s</h3>
                   
                 </td>
                 <td><h3 class="title">testExample</h3></td>
               </tr>
-              
-                <tr class="details failing testExample">
-                  <td></td>
-                  <td>
-                    
-                      <section class="test-detail reason">failed - No implementation for "-[BEMAnalogClockViewTests testExample]"</section>
-                    
-                    
-                      <section class="test-detail snippet"><span class="p">{</span>
-    <span class="n">XCTFail</span><span class="p">(</span><span class="s">@"No implementation for </span><span class="se">\"</span><span class="s">%s</span><span class="se">\"</span><span class="s">"</span><span class="p">,</span> <span class="n">__PRETTY_FUNCTION__</span><span class="p">);</span>
-<span class="p">}</span>
-</section>
-                      <section class="test-detail">/Users/bradchessin/Desktop/ClockApp/BEMAnalogClockTests/BEMAnalogClockTests.m:31</section>
-                    
-                    
-                  </td>
-                </tr>
               
             
             </table>

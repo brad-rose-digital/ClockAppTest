@@ -21,6 +21,11 @@ jobs:
             SCAN_DEVICE: iPhone X
             SCAN_SCHEME: BEMAnalogClock
 
+      lane :beta do
+  	build_app(scheme: "BEMAnalogClock")
+      end
+
+
       # Collect XML test results data to show in the UI,
       # and save the same XML files under test-results folder
       # in the Artifacts tab
