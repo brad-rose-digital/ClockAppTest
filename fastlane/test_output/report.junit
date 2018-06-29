@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='BEMAnalogClockTests.xctest' tests='1' failures='1'>
+  <testsuite name='BEMAnalogClockViewTests' tests='1' failures='1'>
+    <testcase classname='BEMAnalogClockViewTests' name='testExample'>
+      <failure message='failed - No implementation for &quot;-[BEMAnalogClockViewTests testExample]&quot;'>BEMAnalogClockTests/BEMAnalogClockTests.m:31</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

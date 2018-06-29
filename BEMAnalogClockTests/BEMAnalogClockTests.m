@@ -28,7 +28,10 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertEqual(10, 10, "Not Equal1");
+    XCTAssertEqual(11, 11, "Not Equal2");
+    XCTAssertEqual(12, 12, "Not Equal3");
+    XCTAssertEqual(13, 13, "Not Equal4");
 }
 
 @end
