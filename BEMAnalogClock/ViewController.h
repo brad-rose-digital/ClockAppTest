@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "BEMAnalogClockView.h"
 
+//lets go
+
 @interface ViewController : UIViewController <BEMAnalogClockDelegate, UIGestureRecognizerDelegate>
 
 @property (weak, nonatomic) IBOutlet BEMAnalogClockView *myClock1; // The big, main clock.
